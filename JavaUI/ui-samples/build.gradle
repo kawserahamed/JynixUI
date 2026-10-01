@@ -1,0 +1,20 @@
+plugins {
+    id 'java-library'
+}
+
+dependencies {
+    implementation project(':ui-annotations')
+    implementation project(':ui-state')
+    implementation project(':ui-layout')
+    implementation project(':ui-runtime')
+    implementation project(':ui-foundation')
+    implementation project(':ui-material')
+    implementation project(':ui-navigation')
+
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
+    testImplementation 'org.assertj:assertj-core:3.25.3'
+}
+
+test {
+    useJUnitPlatform()
+}

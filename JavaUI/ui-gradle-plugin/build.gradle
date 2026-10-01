@@ -1,0 +1,18 @@
+plugins {
+    id 'java-gradle-plugin'
+}
+
+gradlePlugin {
+    plugins {
+        javaUI {
+            id = 'io.javaui'
+            implementationClass = 'io.javaui.gradle.JavaUIPlugin'
+        }
+    }
+}
+
+dependencies {
+    compileOnly gradleApi()
+    testImplementation gradleTestKit()
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
+}

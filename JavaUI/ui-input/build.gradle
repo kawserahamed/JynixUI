@@ -1,0 +1,29 @@
+plugins {
+    id 'com.android.library'
+}
+
+android {
+    namespace 'io.javaui.input'
+    compileSdk 34
+
+    defaultConfig {
+        minSdk 29
+        targetSdk 34
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    api project(':ui-annotations')
+    api project(':ui-state')
+    api project(':ui-layout')
+    api project(':ui-runtime')
+    api project(':ui-renderer')
+
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
+    testImplementation 'org.assertj:assertj-core:3.25.3'
+}

@@ -1,0 +1,8 @@
+plugins {
+    id 'java'
+}
+
+dependencies {
+    // Pure Java IntelliJ Platform API stubs
+    compileOnly files("${System.getProperty('java.home')}/lib/jrt-fs.jar")
+}

@@ -1,0 +1,6 @@
+{
+  "name": "JavaUI - Declarative UI Framework for Android in Java",
+  "description": "High-performance declarative UI framework for Android, written for Java developers with fine-grained reactivity, RenderNode hardware acceleration, and zero-allocation hot paths.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

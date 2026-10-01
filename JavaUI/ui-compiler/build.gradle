@@ -1,0 +1,21 @@
+plugins {
+    id 'java-library'
+}
+
+dependencies {
+    implementation project(':ui-annotations')
+    implementation 'com.squareup:javapoet:1.13.0'
+    implementation 'org.ow2.asm:asm:9.6'
+    implementation 'org.ow2.asm:asm-commons:9.6'
+
+    testImplementation project(':ui-state')
+    testImplementation project(':ui-layout')
+    testImplementation project(':ui-runtime')
+    testImplementation project(':ui-foundation')
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
+    testImplementation 'org.assertj:assertj-core:3.25.3'
+}
+
+test {
+    useJUnitPlatform()
+}

@@ -1,0 +1,11 @@
+plugins {
+    id 'java-library'
+}
+
+dependencies {
+    compileOnly 'com.android.tools.lint:lint-api:31.2.2'
+    compileOnly 'com.android.tools.lint:lint-checks:31.2.2'
+
+    testImplementation 'com.android.tools.lint:lint-tests:31.2.2'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
+}

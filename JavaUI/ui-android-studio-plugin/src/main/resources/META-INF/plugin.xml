@@ -1,0 +1,20 @@
+<idea-plugin>
+    <id>io.javaui.plugin</id>
+    <name>JavaUI Developer Tools</name>
+    <version>1.0.0</version>
+    <vendor email="support@javaui.io" url="https://javaui.io">JavaUI</vendor>
+
+    <description><![CDATA[
+    Interactive developer tools for JavaUI declarative framework:
+    - Real-time Layoutlib Preview for @Preview annotated UIComponent methods
+    - Gutter icons for navigating between component call-sites and generated metadata
+    - Inspections for reactive state usage and memory safety
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.java</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Layoutlib Preview & Gutter Icon hooks -->
+    </extensions>
+</idea-plugin>
