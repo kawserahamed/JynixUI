@@ -709,7 +709,7 @@ JynixUI is built from the ground up to be 100% accessible:
 
 Contributions are welcome! To get started:
 1. Fork the repository.
-2. Clone your fork: `git clone https://github.com/<your-username>/JynixUI.git`
+2. Clone your fork: `git clone https://github.com/kawserahamed/JynixUI.git`
 3. Run test verification: `./gradlew test`
 4. Submit a Pull Request.
 
